@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*背景*/
+header {
+    background-color: #ffcccc;
+
+}
+#main {
+    background-color: #ccffcc;
+
+}
+#menu {
+    background-color:#ccccff;
+   
+}
+footer{
+    background-color: #ffccff;
+}
+/*レイアウト*/
+#main{
+    width: 700px;
+}
+#menu{
+    width: 300px;
+}
+header , footer{
+    width: 1000px;
+}
+#wrapper {
+    width: 1000px;
+   /* margin: 0 auto;*/
+    display: flex;
+    justify-content: space-between;
+}
